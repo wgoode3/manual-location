@@ -1,0 +1,137 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid rebeccapurple; */
+}
+
+.main-nav {
+    height: 80px;
+}
+
+.offer {
+    display: inline-block;
+    vertical-align: top;
+    margin: 22px;
+}
+
+.right-side {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 80px;
+    position: absolute;
+    right: 24px;
+}
+
+.main-nav img {
+    margin: 24px;
+}
+
+.top a {
+    color: #222222;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.sub-nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eeeeee;
+}
+
+.sub-nav input {
+    width: 60%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.sub-nav button {
+    height: 30px;
+    width: 100px;
+}
+
+.main {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.main-img {
+    width: 50%;
+}
+
+.orange-box {
+    background-color: #f46201;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    margin: 20px 0px 40px 0px;
+    box-shadow: #999999 4px 4px 4px;
+}
+
+.sub-main {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.perks {
+    height: 145px;
+    border: 1px solid #999999;
+    width: 738px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.inner-text {
+    display: inline-block;
+    margin-top: 60px;
+    vertical-align: top;
+}
+
+.icon {
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.rarr {
+    position: absolute;
+    right: 20px;
+    top: 55px;
+}
+
+.car-info {
+    border-top: 3px solid#f46201;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.car-info form {
+    margin-top: 20px;
+}
+
+.car-info select {
+    font-size: 20px;
+    padding: 20px 10px;
+    margin-right: -5px;
+}
+
+#year {
+    width: 100px;
+}
+
+#make {
+    width: 200px;
+}
+
+#model, #engine {
+    width: 400px;
+}
